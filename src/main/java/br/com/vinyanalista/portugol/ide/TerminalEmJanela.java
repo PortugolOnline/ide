@@ -200,8 +200,7 @@ public class TerminalEmJanela extends Terminal {
 		TelaPrincipalMinima.centralizarDialogo(janelaDoConsole, telaPrincipal);
 		janelaDoConsole.setVisible(true);
 	}
-	
-	@Override
+
 	protected void mudarCor(Color cor) {
 		corDoTextoDaSaida = cor;
 	}
